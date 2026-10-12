@@ -8,20 +8,18 @@ Recent advances in spatial multi-omics enable the simultaneous profiling of mult
 representation. Beyond integration, MultiGlue incorporates prior molecular knowledge to guide cross-modal generation, enabling the reconstruction of spatially and biologically coherent omics profiles across molecular layers. Systematic benchmarking on 17 simulated and real-world datasets across diverse tissues, platforms and modality combinations showed that MultiGlue consistently outperformed 11 state-of-the-art methods in integration accuracy and robustness, while maintaining computational scalability across spatial transcriptome–proteome, transcriptome–epigenome and transcriptome–epigenome–proteome data. Notably, when applied to complex mouse thymus and brain samples, MultiGlue resolved fine-grained anatomical structures and cortical layers at higher spatial resolution that were not able to be clearly delineated by competing methods and showed stronger concordance with known tissue anatomy and molecular markers. Importantly, MultiGlue extended spatial multi-omics analysis beyond multi-omics integration by accurately generating unobserved molecular profiles across modalities. In spatial tri-omics mouse brain data, the generated transcriptomic, epigenomic and proteomic profiles preserved spatial organization and recapitulated biologically meaningful cross-modal relationships, revealing concordant transcriptome–epigenome–proteome patterns. Collectively, MultiGlue established an accurate, robust, scalable computational framework for integrative and generative analysis of spatial multi-omics data.
 
 # Requirements
-python==3.8
-torch>=1.8.0
-cudnn>=10.2
-numpy==1.22.3
-scanpy==1.9.1
-anndata==0.8.0
-rpy2==3.4.1
-pandas==1.4.2
-scipy==1.8.1
-scikit-learn==1.1.1
-scikit-misc==0.2.0
-tqdm==4.64.0
-matplotlib==3.4.2
-R==4.0.3
+
+You will need to install the following packages to run MultiGlue.
+
+- Python >= 3.9
+- PyTorch >= 2.3.0 (CUDA 12.1)
+- Scanpy >= 1.11.5
+- NumPy >= 1.26.4
+- AnnData == 0.12.7
+- rpy2 == 3.4.1
+- SciPy >= 1.17.1
+- torchvision == 0.18.0+cu121
+- torchtext == 0.18.0
 
 # Tutorial
 For the step-by-step tutorial, please refer to: https://multiglue-tutorials.readthedocs.io/en/latest/
