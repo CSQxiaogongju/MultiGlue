@@ -3,36 +3,49 @@ Installation
 
 The MultiGlue package has been developed based on the pytorch framework and can be implemented with both GPU and CPU. Using GPU acceleration can significantly speed up the integration progress. So we recommend running the package with GPU first.
 
-To ensure smooth installation and execution of the package, it’s important to have PyTorch and CUDA (including CUDNN) installed correctly. These dependencies are necessary for GPU acceleration. Make sure you have the appropriate GPU drivers installed on your system as well.
+To ensure smooth installation and execution of the package, it's important to have PyTorch and CUDA (including CUDNN) installed correctly. These dependencies are necessary for GPU acceleration. Make sure you have the appropriate GPU drivers installed on your system as well.
 
-To run the MultiGlue package, two methods are provided. Note that the installation of all packages included in file ‘requirement.txt’ are needed.
+To run the MultiGlue package, two methods are provided. Note that the installation of all packages included in file 'requirement.txt' are needed.
 
-Create environment
-------------------
+1. Installation from PyPI (Python Package Index):
+---------------------
 
-We recommend creating a dedicated Conda environment.
+.. code-block:: python
 
-.. code-block:: bash
-#Create an environment called MulitGlue
+   Open a terminal or command prompt
 
-conda create -n MultiGlue python=3.9
+   Run the following command: 'pip install MultiGlue' or 'pip install MultiGlue_3M'
 
-#Activate your environment
+   This command will download and install the MultiGlue package from PyPI along with its dependencies. If any of the dependencies listed in the 'requirement.txt' file are missing, they will be installed automatically.
 
-conda activate MultiGlue
+   Note: please ensure the pip version is python3.
+   
 
-#Install MultiGlue (MultiGlue-3M) package
-------------------
+2. Anaconda
+------------
+For convenience, we recommend using a separate conda environment for running MultiGlue. Please make ensure annaconda3 is installed on your system. If you haven't installed it yet, you can download and install Anaconda3 from the official Anaconda website (https://www.anaconda.com/products/individual).
 
-.. code-block:: bash
+.. code-block:: python
 
-   git clone https://github.com/CSQxiaogongju/MultiGlue.git
-   cd MultiGlue
+   1) Create conda environment and install MultiGlue package
+   
+   #Create an environment called MultiGlue
 
+   conda create -n MultiGlue python=3.9
 
-Install dependencies
---------------------
+   #Activate your environment
 
-.. code-block:: bash
+   conda activate MultiGlue
 
-   pip install -r requirements.txt
+   #Install MultiGlue (MultiGlue_3M) package
+
+   pip install MultiGlue or pip install MultiGlue_3M
+
+ 
+   2) To use the environment in jupyter notebook, add python kernel for this environment.
+
+   pip install ipykernel
+
+   python -m ipykernel install --user --name=MultiGlue
+   
+
