@@ -25,6 +25,7 @@ documentation for details.
    installation
    tutorials/Tutorial1_Mouse_Thymus
    tutorials/Tutorial2_P22_Mouse_Brain
+   tutorials/Tutorial3_Mouse_Brain(spatial epigenome-transcriptome-proteome data)
 
 
 Overview
