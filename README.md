@@ -20,6 +20,10 @@ You will need to install the following packages to run MultiGlue.
 - sciPy >= 1.17.1
 - torchvision == 0.18.0+cu121
 - torchtext == 0.18.0
+- pandas == 2.3.3
+- scikit-learn == 1.8.0
+- scikit-misc == 0.5.2
+- tqdm == 4.67.1
 
 # Tutorial
 For the step-by-step tutorial, please refer to: https://multiglue-tutorials.readthedocs.io/en/latest/
