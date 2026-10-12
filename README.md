@@ -14,7 +14,7 @@ You will need to install the following packages to run MultiGlue.
 - python >= 3.9
 - torch >= 2.3.0 (CUDA 12.1)
 - scanpy >= 1.11.5
-- numPy >= 1.26.4
+- numpy >= 1.26.4
 - anndata == 0.12.7
 - rpy2 == 3.4.1
 - sciPy >= 1.17.1
