@@ -11,13 +11,13 @@ representation. Beyond integration, MultiGlue incorporates prior molecular knowl
 
 You will need to install the following packages to run MultiGlue.
 
-- Python >= 3.9
-- PyTorch >= 2.3.0 (CUDA 12.1)
-- Scanpy >= 1.11.5
-- NumPy >= 1.26.4
-- AnnData == 0.12.7
+- python >= 3.9
+- torch >= 2.3.0 (CUDA 12.1)
+- scanpy >= 1.11.5
+- numPy >= 1.26.4
+- anndata == 0.12.7
 - rpy2 == 3.4.1
-- SciPy >= 1.17.1
+- sciPy >= 1.17.1
 - torchvision == 0.18.0+cu121
 - torchtext == 0.18.0
 
