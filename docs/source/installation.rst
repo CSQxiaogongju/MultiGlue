@@ -13,15 +13,15 @@ Create environment
 We recommend creating a dedicated Conda environment.
 
 .. code-block:: bash
-# Create an environment called MulitGlue
+#Create an environment called MulitGlue
 
 conda create -n MultiGlue python=3.9
 
-# Activate your environment
+#Activate your environment
 
 conda activate MultiGlue
 
-# Install MultiGlue (MultiGlue-3M) package
+#Install MultiGlue (MultiGlue-3M) package
 ------------------
 
 .. code-block:: bash
